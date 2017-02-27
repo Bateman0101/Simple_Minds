@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/pared"
+              android:weightSum="1"
+              android:orientation="vertical"
+
+    android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:paddingTop="50dp"
+        android:layout_weight="0.10"
+        android:paddingStart="40dp"
+        android:paddingLeft="40dp">
+
+        <TextView
+            android:text="    Partite giocate: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:textSize="20sp"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_partite"
+            android:textSize="20sp"
+            android:text="            "
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:paddingStart="40dp">
+
+        <TextView
+            android:text="    Partite vinte: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/partite_vinte"
+            android:layout_weight="1"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16">
+
+        <TextView
+            android:text="     Miglior tempo:"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:id="@+id/tempo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20sp"
+            android:paddingStart="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempo1"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cooltext231938324906790"
+        android:id="@+id/imageView"
+        android:layout_weight="0.40" />
+
+</LinearLayout>

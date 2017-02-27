@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/lv_mid"
+            android:checked="false"
+            android:title="Indietro"/>
+        <item
+            android:id="@+id/about"
+            android:checked="false"
+            android:title="About"/>
+
+    </group>
+
+</menu>
